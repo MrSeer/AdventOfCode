@@ -48,6 +48,7 @@
     <Compile Include="Puzzle.cs" />
     <Compile Include="Puzzle2015-Day1.cs" />
     <Compile Include="Puzzle2015-Day2.cs" />
+    <Compile Include="Puzzle2016-Day2.cs" />
     <Compile Include="Puzzle2016-Day1.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

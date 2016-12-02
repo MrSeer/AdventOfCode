@@ -6,7 +6,7 @@ namespace AdventOfCode
     {
         static void Main()
         {
-            Puzzle myPuzzle= new Puzzle2016_Day1();
+            Puzzle myPuzzle= new Puzzle2016_Day2();
 
             Console.WriteLine(myPuzzle.Resolve());
 
