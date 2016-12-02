@@ -52,7 +52,7 @@ DLLLRDDURDULRRLULURRDULDLUDLURDDURRLLRRLLULRDLDRDULRLLRDRUUULURRRLLRLDDDRDRRULDR
 
         public string Resolve()
         {
-            var lines = input.Replace(" ", "").Split('\n');
+            var lines = input.Split('\n');
 
             var code= new List<char>();
 
@@ -73,9 +73,6 @@ DLLLRDDURDULRRLULURRDULDLUDLURDDURRLLRRLLULRDLDRDULRLLRDRUUULURRRLLRLDDDRDRRULDR
                             break;
                         case 'L':
                             DecreaseColumnIndex();
-                            break;
-                        default:
-                            Console.WriteLine(caracter);
                             break;
                     }
                 }
