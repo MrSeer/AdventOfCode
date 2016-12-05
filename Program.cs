@@ -1,4 +1,5 @@
 ﻿using System;
+using AdventOfCode._2016.Day4;
 
 namespace AdventOfCode
 {
@@ -6,11 +7,11 @@ namespace AdventOfCode
     {
         static void Main()
         {
-            Puzzle myPuzzle= new Puzzle2016_Day3();
+            Puzzle myPuzzle= new Puzzle2016_Day4();
 
             Console.WriteLine(myPuzzle.Resolve());
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
